@@ -10,6 +10,9 @@ https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
 
 # YOUR CODE HERE
 # Open a file
+# f = open("file", "w+") creates and opens a new file by that file name
+#  with open("file") as f opens an already created file by that name
+
 with open("foo.txt") as file:
     read_data = file.read()
     print(read_data)
