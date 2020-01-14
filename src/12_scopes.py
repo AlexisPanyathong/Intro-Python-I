@@ -3,7 +3,7 @@
 
 # When you use a variable in a function, it's local in scope to the function.
 x = 12
-
+# If it is not nested in Python3, then it is considered global
 def change_x():
    global x
    x = 99 
@@ -15,7 +15,7 @@ print(x)
 
 
 # This nested function has a similar problem.
-
+# If it is nested in Python3, then it is considered nonlocal
 def outer():
     y = 120
 
