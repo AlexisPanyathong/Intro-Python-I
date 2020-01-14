@@ -28,6 +28,7 @@ print('Part 4: ', x)
 
 # Print the length of list x
 # YOUR CODE HERE
-
+print('Part 5: ', len(x))
 # Print all the values in x multiplied by 1000
 # YOUR CODE HERE
+print('Part 6: ', [i * 1000 for i in x])
